@@ -102,7 +102,18 @@ main {
   .footer-logo {
     margin-right: 0;
   }
+
 }
+
+
+
+@media (max-width: 900px) {
+
+  .food-image img {
+    display: none;
+  }
+}
+
 
 
 .reservation-container {
@@ -252,7 +263,7 @@ main {
 
 .food-image img {
   max-width: 100%;
-  height: auto;
+  height:450px;
 }
 
 button {

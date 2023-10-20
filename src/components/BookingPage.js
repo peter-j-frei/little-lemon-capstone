@@ -1,5 +1,5 @@
 import React, {useReducer } from 'react';
-import ReservationForm from './ReservationForm';
+import BookingForm from './BookingForm';
 
 // useEffect(() => {
 //   const fetchTimes = async () => {
@@ -65,7 +65,7 @@ const BookingPage = () => {
     }, []);
 
     return (
-            <ReservationForm availableTimes={availableTimes} dispatch={dispatch} />
+            <BookingForm availableTimes={availableTimes} dispatch={dispatch} />
     );
 };
 

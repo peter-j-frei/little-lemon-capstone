@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../images/food.jpg';
+import logo from '../images/homepagefood.jpg';
 import { Link } from 'react-router-dom';
 
 
@@ -17,7 +17,6 @@ function HomePage() {
       </article>
       <figure className="food-image">
         <img src={logo} alt="Delicious food from Little Lemon" className="rounded" />
-        <figcaption>Example of our delicious foods.</figcaption>
       </figure>
     </section>
   );
